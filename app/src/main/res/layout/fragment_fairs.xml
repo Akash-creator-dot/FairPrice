@@ -1,0 +1,42 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="26dp">
+
+    <EditText
+        android:textColor="#000000"
+        android:backgroundTint="@color/white"
+        android:background="@drawable/edtbox"
+        android:layout_marginTop="30dp"
+        android:id="@+id/pickup_location"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Pickup Location"
+        android:minHeight="60dp"
+        android:layout_marginBottom="16dp"
+        android:inputType="text" />
+
+    <EditText
+        android:background="@drawable/edtbox"
+        android:id="@+id/destination"
+        android:layout_marginTop="15dp"
+        android:minHeight="60dp"
+        android:textColor="#000000"
+        android:backgroundTint="@color/white"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Destination"
+        android:layout_marginBottom="16dp"
+        android:inputType="text" />
+
+    <com.google.android.material.button.MaterialButton
+        android:layout_marginTop="60dp"
+        android:backgroundTint="@color/black"
+        android:id="@+id/find_fares_button"
+        android:minHeight="50dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:text="Find Fares" />
+</LinearLayout>

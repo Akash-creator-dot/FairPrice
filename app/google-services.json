@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "265123398933",
+    "project_id": "fairprice-41da4",
+    "storage_bucket": "fairprice-41da4.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:265123398933:android:e55c44f3db08eeccd2951c",
+        "android_client_info": {
+          "package_name": "com.example.fairprice"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDYSzIenUop9ThOR983nk2wiF33HBE1LdI"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
