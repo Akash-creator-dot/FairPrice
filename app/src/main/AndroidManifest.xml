@@ -16,6 +16,19 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.FairPrice"
         tools:targetApi="31">
+        <meta-data
+            android:name="com.google.android.geo.API_KEY"
+            android:value="AIzaSyB29I5knYAO6Sb-AWY06mRygi8VVutduB8"/>
+
+        <activity
+            android:name=".Comparision"
+            android:exported="false" />
+        <activity
+            android:name=".RideDetailsActivity"
+            android:exported="false" />
+        <activity
+            android:name=".SelectMode"
+            android:exported="false" />
         <activity
             android:name=".Partners"
             android:exported="false" />
@@ -34,8 +47,7 @@
         <activity
             android:name=".MainActivity"
             android:exported="false"
-            android:windowSoftInputMode="adjustResize">
-        </activity>
+            android:windowSoftInputMode="adjustResize" />
     </application>
 
 </manifest>

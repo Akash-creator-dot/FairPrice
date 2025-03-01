@@ -18,6 +18,7 @@ firebaseDatabase = "21.0.0"
 firebaseFirestore = "25.1.1"
 firebaseStorage = "21.0.1"
 places = "4.1.0"
+placesVersion = "3.3.0"
 playServicesMaps = "19.0.0"
 playServicesPlaces = "18.1.0"
 playServicesPlacesVersion = "18.0.0"
@@ -41,6 +42,7 @@ firebase-database = { group = "com.google.firebase", name = "firebase-database",
 firebase-firestore = { group = "com.google.firebase", name = "firebase-firestore", version.ref = "firebaseFirestore" }
 firebase-storage = { group = "com.google.firebase", name = "firebase-storage", version.ref = "firebaseStorage" }
 places = { module = "com.google.android.libraries.places:places", version.ref = "places" }
+places-v330 = { module = "com.google.android.libraries.places:places", version.ref = "placesVersion" }
 play-services-maps = { module = "com.google.android.gms:play-services-maps", version.ref = "playServicesMaps" }
 play-services-places = { module = "com.google.android.gms:play-services-places", version.ref = "playServicesPlaces" }
 play-services-places-v1800 = { module = "com.google.android.gms:play-services-places", version.ref = "playServicesPlacesVersion" }
